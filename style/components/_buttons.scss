@@ -134,6 +134,9 @@
       transform: translate(-12%, -30%) rotate(45deg);
     }
   }
+  & + .cta-btn--projects {
+    margin-left: 10px;
+  }
 }
 
 // /* Arrow Button */
