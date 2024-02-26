@@ -48,6 +48,13 @@
         li + li {
           margin-top: 10px;
         }
+
+        a {
+          color: #07b9e4;
+          &:hover {
+            color: #357eea;
+          }
+        }
       }
 
       &-btns {
