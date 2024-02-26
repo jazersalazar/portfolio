@@ -17,7 +17,7 @@
     <meta name="description" content="Jazer Salazar | Developer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+    <link rel="icon" type="image/png" href="./assets/icon.png" />
 
     <!-- Add your primary-theme color for the value of content -->
     <meta name="theme-color" content="#36d1dc" />
@@ -29,12 +29,12 @@
     <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
     <meta property="og:title" content="Jazer Salazar | Developer" />
     <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
+    <meta property="og:description" content="Jazer Salazar Portfolio" />
     <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
       so that a thumbnail image of your portfolio is shown while shared on other platform -->
     <meta
       property="og:image"
-      content="https://jazersalazar.com/assets/devfolio.png"
+      content="https://jazersalazar.com/assets/icon.png"
     />
 
     <!-- Twitter -->
@@ -44,14 +44,11 @@
     <!-- Recommended to use the same text used within <title> element -->
     <meta property="twitter:title" content="Jazer Salazar | Developer" />
     <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Made using DevFolio Template"
-    />
+    <meta property="twitter:description" content="Jazer Salazar Portfolio" />
     <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
     <meta
       property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
+      content="https://jazersalazar.com/assets/icon.png"
     />
 
     <!-- link tags -->
@@ -139,12 +136,25 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Some of my work</h2>
+          <h2 class="section-title dark-blue-text">Some WP related work</h2>
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">NW Furniture Bank</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>
+                  Created custom plugin that integrates GravityForms with
+                  Salesforce
+                </li>
+                <li>
+                  Created multiple custom GravityForms fields that pulls data
+                  from Salesforce API
+                </li>
+                <li>
+                  Integrated CardConnect APIs for easy and safer online payments
+                  with credit card
+                </li>
+              </ul>
               <div class="project-wrapper__text-btns">
                 <a
                   href="https://www.nwfurniturebank.org/"
@@ -180,7 +190,22 @@
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">ValorBK</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>
+                  Developed Valor Ecosystem Backend APIs that can consume by all
+                  the apps associated with the Valor Sports Entertainment Inc.
+                </li>
+                <li>
+                  Developed custom elementor widgets that subscribes to Valor
+                  Ecosystem API
+                </li>
+                <li>
+                  Developed Valor Ecosystem core plugin that handles the
+                  seamless integration of Valor Ecosystem Backend API and custom
+                  elementor widgets
+                </li>
+                <li>Integrated Woocommerce core plugin</li>
+              </ul>
               <div class="project-wrapper__text-btns">
                 <a
                   href="https://valorbk.com/"
@@ -215,8 +240,57 @@
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">GravityForms - Asana</h3>
+              <ul class="project-wrapper__text-info">
+                <li>
+                  Created a wordpress plugin that integrates GravityForms to
+                  Asana
+                </li>
+              </ul>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/jazersalazar/gravityforms-asana"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Github Link</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://github.com/jazersalazar/gravityforms-asana"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project-gfasana.png"
+                    class="img-fluid"
+                    alt="ValorBK Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Dappstore</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>Created a custom wordpress theme</li>
+                <li>Created a custom elementor slider widget</li>
+                <li>
+                  Created a core wordpress plugin that handles theme customizer,
+                  custom post type, custom fields, etc.
+                </li>
+                <li>Implemented a third-party multi-language plugin</li>
+              </ul>
               <div class="project-wrapper__text-btns">
                 <a
                   href="https://dappstore.me/intro/"
@@ -251,8 +325,12 @@
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Acent Website</h3>
-              <p class="project-wrapper__text-info"></p>
+              <h3 class="project-wrapper__text-title">Acent Tech</h3>
+              <ul class="project-wrapper__text-info">
+                <li>Wordpress theme customization</li>
+                <li>Integrates Acent Token Webwallet</li>
+                <li>Website routine maintenance</li>
+              </ul>
               <div class="project-wrapper__text-btns">
                 <a
                   href="https://acent.tech/"
@@ -285,7 +363,7 @@
           <!-- /END Project -->
 
           <!-- Each .row is a project -->
-          <article class="row">
+          <!-- <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Acent Webwallet</h3>
               <p class="project-wrapper__text-info"></p>
@@ -317,14 +395,18 @@
                 </div>
               </a>
             </div>
-          </article>
+          </article> -->
           <!-- /END Project -->
 
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">COBA</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>Wordpress theme customization</li>
+                <li>Website setup</li>
+                <li>Website routine maintenance</li>
+              </ul>
               <div class="project-wrapper__text-btns">
                 <a
                   href="https://coba.zone/"
@@ -360,7 +442,18 @@
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">The Basement</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>Created a custom wordpress theme</li>
+                <li>
+                  Created a core wordpress plugin that handles theme customizer,
+                  custom post type, custom fields, etc.
+                </li>
+                <li>Integrated Woocommerce core plugin</li>
+                <li>
+                  Created custom plugin that integrates Woocommerce with Shopify
+                  and vice versa
+                </li>
+              </ul>
               <div class="project-wrapper__text-btns">
                 <a
                   href="https://basementapproved.com/"
@@ -404,7 +497,18 @@
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Fresh Bros</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>BigCommerce theme customization</li>
+                <li>Created a custom wordpress theme</li>
+                <li>
+                  Created a core wordpress plugin that handles theme customizer,
+                  custom post type, custom fields, etc.
+                </li>
+                <li>
+                  Created custom plugin that integrates Woocommerce with Shopify
+                  and vice versa
+                </li>
+              </ul>
               <div class="project-wrapper__text-btns">
                 <a
                   href="https://freshbros.com/"
@@ -440,7 +544,15 @@
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Comfort Leaf</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>Created a custom wordpress theme</li>
+                <li>
+                  Created a core wordpress plugin that handles theme customizer,
+                  custom post type, custom fields, etc.
+                </li>
+                <li>Integrated Woocommerce core plugin</li>
+                <li>Integrated AffiliateWP core plugin</li>
+              </ul>
             </div>
 
             <div class="project-wrapper__image">
@@ -461,7 +573,14 @@
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Ken Shamrock</h3>
-              <p class="project-wrapper__text-info"></p>
+              <ul class="project-wrapper__text-info">
+                <li>
+                  Created a wordpress plugin that automates the creation of
+                  Asana tasks from a GravityForms submission
+                </li>
+                <li>Integrated Woocommerce core plugin</li>
+                <li>Website routine maintenance</li>
+              </ul>
             </div>
 
             <div class="project-wrapper__image">
